@@ -7,6 +7,7 @@ import java.util.Random;
 /**
  * Created by Administrator on 8/10/2016.
  * @Author: Irinel Pascal
+ * *
  */
 public class ReadPixel extends Photos {
 
