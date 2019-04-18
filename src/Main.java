@@ -1,3 +1,4 @@
+import java.util.Random;//comment
 import java.util.Random;
 //comment below import
 
@@ -6,7 +7,7 @@ public class Main {
     public static void main(String[] args)  {
 
 
-        Image image = new Image();
+        Image image = new Image(); //added comment newar image
 
         try {
 
