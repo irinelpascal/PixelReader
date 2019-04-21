@@ -3,9 +3,7 @@ import java.util.Random;//comment
 import java.util.Random;
 //comment below import
 
-//added1
-//added2
-//added3
+//1
 
 public class Main {
 
