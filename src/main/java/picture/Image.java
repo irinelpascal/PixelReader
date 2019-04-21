@@ -1,11 +1,9 @@
+package picture;
+
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -38,7 +36,7 @@ public class Image {
 
     }
 
-    public void processingImage() throws Exception, InterruptedException {
+    public void processingImage() {
 
         BufferedImage desktopImage = null;
 

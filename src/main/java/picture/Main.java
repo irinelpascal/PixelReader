@@ -1,18 +1,14 @@
-import java.util.Random;//comment
-import java.util.Random;
+package picture;
+
+
 //comment below import
 
 public class Main {
 
-    public static void main(String[] args)  {
-
-
-        Image image = new Image(); //added comment newar image
-
+    public static void main(String[] args) {
+        Image image = new Image(); //added comment newer image
         try {
-
             image.processingImage();
-
         } catch (Exception e) {
 
             System.out.println(e);

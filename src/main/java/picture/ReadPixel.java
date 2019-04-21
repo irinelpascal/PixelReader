@@ -1,3 +1,5 @@
+package picture;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -30,6 +32,10 @@ public class ReadPixel extends Photos {
     private static int similarity;
     private File output;
     private int flag;
+
+    protected void method() {
+        System.out.println("from method");
+    }
 
 
     public ReadPixel() {
