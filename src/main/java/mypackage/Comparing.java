@@ -1,4 +1,5 @@
-import sun.awt.shell.ShellFolder;
+package mypackage;
+
 
 import javax.imageio.ImageIO;
 import java.awt.*;
