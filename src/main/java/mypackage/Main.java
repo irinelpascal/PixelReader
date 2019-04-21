@@ -1,3 +1,4 @@
+package mypackage;
 import java.util.Random;//comment
 import java.util.Random;
 //comment below import
