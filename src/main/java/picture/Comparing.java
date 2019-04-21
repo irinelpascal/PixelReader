@@ -1,10 +1,11 @@
-import sun.awt.shell.ShellFolder;
+package picture;
+
+import photo.PhotoClass;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.text.DecimalFormat;
 import java.util.Random;
 
 public class Comparing extends ReadPixel {
@@ -31,7 +32,7 @@ public class Comparing extends ReadPixel {
     }
 
     public void comparing() throws Exception {
-
+        PhotoClass photoClass = new PhotoClass();
         try {
 
             File firstFile = new File("C:\\Users\\Administrator\\Desktop\\640x320_pictures\\1.jpg");
