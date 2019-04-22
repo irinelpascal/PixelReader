@@ -37,7 +37,7 @@ public class ReadPixel extends Photos {
     private static int similarity;
     private File output;
     private int flag;
-    private Integer integer;
+    private Integer integer;//
 
 
     public ReadPixel() {
