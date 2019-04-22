@@ -16,6 +16,7 @@ import java.util.Random;
 //adding some comments
     //adding some new comments
     //3rd comment
+    //4thcomment
 public class ReadPixel extends Photos {
 
     private File file;
