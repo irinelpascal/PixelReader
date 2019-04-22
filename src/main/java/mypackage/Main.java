@@ -1,4 +1,6 @@
 package mypackage;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;//comment
 import java.util.Random;
 //comment below import
@@ -8,6 +10,8 @@ import java.util.Random;
 //3
 
 public class Main {
+
+    private static Map<String, Map<String, Object>> stringMapMap = new HashMap<String, Map<String, Object>>();
 
     public static void main(String[] args)  {
 
@@ -40,6 +44,14 @@ public class Main {
         }
 
         System.out.println("\nfinished !");
+
+        Map<String, String> stringStringMap = new HashMap<String, String>();
+        stringStringMap.put("thirdKey", "value1");
+        stringStringMap.put("fourthKey", "value2");
+
+        Map<String, Object> stringObjectMap = new HashMap<String, Object>();
+        stringObjectMap.put("secondaryKey", stringStringMap);
+        Map<String, Object> primarykey = stringMapMap.put("primarykey", stringObjectMap);
 
     }
 
