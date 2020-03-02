@@ -103,7 +103,7 @@ public class ReadPixel extends Photos {
 
             for (int i = 0; i < getData().length; i++) {
 
-                files[i] = new File("C:\\Users\\Administrator\\Desktop\\640x320_pictures\\" + photos[i]);
+                files[i] = new File("C:\\Users\\RealEyes\\Desktop\\640x320_pictures\\" + photos[i]);
                 selectedImages[i] = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
                 selectedImages[i] = ImageIO.read(files[i]);
 
